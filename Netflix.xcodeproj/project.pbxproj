@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A09CC32C2939C03A00BAD5F8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09CC32B2939C03A00BAD5F8 /* SearchResultsViewController.swift */; };
+		A09CC32E293B148300BAD5F8 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09CC32D293B148300BAD5F8 /* YoutubeSearchResponse.swift */; };
+		A09CC330293B1B4E00BAD5F8 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09CC32F293B1B4E00BAD5F8 /* TitlePreviewViewController.swift */; };
+		A09CC332293B1FC800BAD5F8 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09CC331293B1FC800BAD5F8 /* TitlePreviewViewModel.swift */; };
 		A0B37D2C293675C400455C1D /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B37D2B293675C400455C1D /* TitleTableViewCell.swift */; };
 		A0B37D2E293675F900455C1D /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B37D2D293675F900455C1D /* TitleViewModel.swift */; };
 		A0B397FF2930DBC80040F914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B397FE2930DBC80040F914 /* AppDelegate.swift */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		A09CC32B2939C03A00BAD5F8 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		A09CC32D293B148300BAD5F8 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		A09CC32F293B1B4E00BAD5F8 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		A09CC331293B1FC800BAD5F8 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		A0B37D2B293675C400455C1D /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		A0B37D2D293675F900455C1D /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		A0B397FB2930DBC80040F914 /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				A09CC32B2939C03A00BAD5F8 /* SearchResultsViewController.swift */,
+				A09CC32F293B1B4E00BAD5F8 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				A0B37D2D293675F900455C1D /* TitleViewModel.swift */,
+				A09CC331293B1FC800BAD5F8 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				A0B39826293277050040F914 /* Title.swift */,
+				A09CC32D293B148300BAD5F8 /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 				A0B397FF2930DBC80040F914 /* AppDelegate.swift in Sources */,
 				A09CC32C2939C03A00BAD5F8 /* SearchResultsViewController.swift in Sources */,
 				A0F5AC4F2933234E00EA8AC3 /* Extensions.swift in Sources */,
+				A09CC32E293B148300BAD5F8 /* YoutubeSearchResponse.swift in Sources */,
 				A0B398012930DBC80040F914 /* SceneDelegate.swift in Sources */,
+				A09CC332293B1FC800BAD5F8 /* TitlePreviewViewModel.swift in Sources */,
 				A0B398162930E16A0040F914 /* UpcomingViewController.swift in Sources */,
+				A09CC330293B1B4E00BAD5F8 /* TitlePreviewViewController.swift in Sources */,
 				A0B39827293277050040F914 /* Title.swift in Sources */,
 				A0B398142930E0660040F914 /* HomeViewController.swift in Sources */,
 				A0B37D2E293675F900455C1D /* TitleViewModel.swift in Sources */,
